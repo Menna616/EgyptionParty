@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --mainColor:#841E21
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home{
+    background-image: url(../imgs/bg-image.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.bg-color{
+    background-color: rgba(255,0,0,0.4);
+    height: 100vh;
+    width: 100%;
+}
+.home-content h2{
+    font-size: 60px;
+}
+.fixed-box{
+    width: 20%;
+    background-color: #111;
+}
+.fixed-box a{
+    font-size: 25px;
+}
+span{
+   padding-left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.sideBar{
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+#closeBtn{
+    cursor: pointer;
+}
+.box a:hover,#closeBtn:hover{
+   color: #D62E3366 !important;
+}
+/* DURATION SECTION */
+.accordion-item{
+    background-color: #CCCCCC;
+}
+.accordion-button{
+    background-color: #E68285;
+}
+
+/* COUNTER SECTION */
+
+.item{
+    border: 1px solid white;
+}
+#details{
+    background-image: url(../imgs/count.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.count-bg{
+    background-color: rgba(214, 46, 51 , 0.6);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+/* CONTACT SECTION*/
+.contact-info h3{
+    font-size: 18px;
+    font-weight: 900;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+}
+
+
